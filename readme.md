@@ -11,7 +11,6 @@ ESERCIZI:
     - Usa il mockup che troverai nella cartella assets per ricreare la versione desktop e mobile usando le conoscenze di responsive layout e grid system di Bootstrap che hai acquisito finora.
     - Puoi sovrascrivere all'occorrenza le classi di Bootstrap o usare il tuo CSS per raggiungere lo stesso livello di dettaglio, colori, posizionamenti.
     - Se ti avanza tempo puoi anche gestire i layout per i breakpoint: small, medium, x-large ma non sono obbligatori.
-
     - Se non ne hai avuto la possibità, completa il compito di inizio settimana. Per questo compito ti serviranno le card dei vari corsi, quindi arriva almeno fino ala prima card.
     - Aggiungi una transazione al pulsante "salva": quando ci passi con il mouse (hover), il nastrino corrispondente dovrebbe riempirsi dello stesso colore del bordo.
     - Aggiungi una transizione all'intera card: quando ci passi con il mouse (hover), deve diventare poco più grande e deve apparire una leggera ombra. Fai in modo che l'animazione non sia di disturbo e che sia leggera e piacevole alla vista.
