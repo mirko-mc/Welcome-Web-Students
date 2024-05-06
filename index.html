@@ -16,6 +16,7 @@
     />
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
+
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
@@ -92,7 +93,9 @@
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#">Voce 1</a></li>
                 <li><a class="dropdown-item" href="#">Voce 2</a></li>
-                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
                 <li><a class="dropdown-item" href="#">Voce 3</a></li>
                 <li><a class="dropdown-item" href="#">Voce 4</a></li>
                 <li><a class="dropdown-item" href="#">Voce 5</a></li>
@@ -132,6 +135,8 @@
             <img class="img-fluid" src="./assets/img/hero-img.png" alt="" />
           </div>
         </div>
+      </div>
+      <div class="container">
         <div class="row">
           <div class="col">
             <!-- icons
@@ -171,12 +176,281 @@
         </div>
       </div>
     </header>
+    <main>
+      <div class="container">
+        <div class="row">
+          <section class="recommended">
+            <!-- carousel -->
+            <div class="container my-3">
+              <h2 class="font-weight-light">Reccomended to you</h2>
+              <div class="row mx-auto my-auto justify-content-center">
+                <div
+                  id="recipeCarousel"
+                  class="carousel slide"
+                  data-bs-ride="carousel"
+                >
+                  <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                      <div class="col-md-6 col-lg-3">
+                        <!-- CARD 1 ---------------------------------------------------------------------------- -->
+                        <div class="card">
+                          <div class="card-img">
+                            <img
+                              src="./assets/img/course/course-graphql.jpg"
+                              class="img-fluid"
+                            />
+                          </div>
+                        </div>
+                        <!-- FINE CARD ------------------------------------------------------------------------- -->
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="col-md-6 col-lg-3">
+                        <!-- CARD 2 ---------------------------------------------------------------------------- -->
+                        <div class="card">
+                          <img
+                            src="./assets/img/course/course-javascript.jpg"
+                            class="card-img-top mb-3"
+                            alt="JavaScript Course"
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title">
+                              A Complete Beginner's Guide to JavaScript
+                            </h5>
+                            <p class="card-text">
+                              <i class="bi bi-clock"> 4h 10m</i>
+                              <i class="bi bi-reception-4"> Advance</i>
+                            </p>
+                            <div class="mb-3">
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-half"></i>
+                              <span>(7,500)</span>
+                            </div>
+                            <div class="mb-3">
+                              <span class="fw-bold">$700</span>
+                              <del>$850</del>
+                            </div>
+                            <div class="card-footer pt-3">
+                              <div>
+                                <img
+                                  src="./assets/img/avatar/avatar-1.jpg"
+                                  alt="Jenny Wilson"
+                                  width="25px"
+                                  height="25px"
+                                  class="rounded-circle"
+                                />
+                                <span>Jenny Wilson</span>
+                              </div>
+                              <i class="bi bi-bookmark"></i>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- FINE CARD ------------------------------------------------------------------------- -->
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="col-md-6 col-lg-3">
+                        <!-- CARD 3 ---------------------------------------------------------------------------- -->
+                        <div class="card">
+                          <div class="card-img">
+                            <img
+                              src="./assets/img/course/course-node.jpg"
+                              class="img-fluid"
+                            />
+                          </div>
+                          <div class="card-img-overlay">Slide 3</div>
+                        </div>
+                        <!-- FINE CARD ------------------------------------------------------------------------- -->
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="col-md-6 col-lg-3">
+                        <!-- CARD 4 ---------------------------------------------------------------------------- -->
+                        <div class="card">
+                          <div class="card-img">
+                            <img
+                              src="./assets/img/course/course-laravel.jpg"
+                              class="img-fluid"
+                            />
+                          </div>
+                          <div class="card-img-overlay">Slide 4</div>
+                        </div>
+                        <!-- FINE CARD ------------------------------------------------------------------------- -->
+                      </div>
+                    </div>
+                  </div>
+                  <a
+                    class="carousel-control-prev bg-transparent w-aut"
+                    href="#recipeCarousel"
+                    role="button"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                  </a>
+                  <a
+                    class="carousel-control-next bg-transparent w-aut"
+                    href="#recipeCarousel"
+                    role="button"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- fine carousel -->
+          </section>
+        </div>
+        <div class="row">
+          <section class="recommended">
+            <!-- carousel -->
+            <div class="container my-3">
+              <h2 class="font-weight-light">Reccomended to you</h2>
+              <div class="row mx-auto my-auto justify-content-center">
+                <div
+                  id="recipeCarousel"
+                  class="carousel slide"
+                  data-bs-ride="carousel"
+                >
+                  <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                      <div class="col-md-6 col-lg-3">
+                        <!-- CARD 1 ---------------------------------------------------------------------------- -->
+                        <div class="card">
+                          <div class="card-img">
+                            <img
+                              src="./assets/img/course/course-graphql.jpg"
+                              class="img-fluid"
+                            />
+                          </div>
+                        </div>
+                        <!-- FINE CARD ------------------------------------------------------------------------- -->
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="col-md-6 col-lg-3">
+                        <!-- CARD 2 ---------------------------------------------------------------------------- -->
+                        <div class="card">
+                          <img
+                            src="./assets/img/course/course-javascript.jpg"
+                            class="card-img-top mb-3"
+                            alt="JavaScript Course"
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title">
+                              A Complete Beginner's Guide to JavaScript
+                            </h5>
+                            <p class="card-text">
+                              <i class="bi bi-clock"> 4h 10m</i>
+                              <i class="bi bi-reception-4"> Advance</i>
+                            </p>
+                            <div class="mb-3">
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-half"></i>
+                              <span>(7,500)</span>
+                            </div>
+                            <div class="mb-3">
+                              <span class="fw-bold">$700</span>
+                              <del>$850</del>
+                            </div>
+                            <div class="card-footer pt-3">
+                              <div>
+                                <img
+                                  src="./assets/img/avatar/avatar-1.jpg"
+                                  alt="Jenny Wilson"
+                                  width="25px"
+                                  height="25px"
+                                  class="rounded-circle"
+                                />
+                                <span>Jenny Wilson</span>
+                              </div>
+                              <i class="bi bi-bookmark"></i>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- FINE CARD ------------------------------------------------------------------------- -->
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="col-md-6 col-lg-3">
+                        <!-- CARD 3 ---------------------------------------------------------------------------- -->
+                        <div class="card">
+                          <div class="card-img">
+                            <img
+                              src="./assets/img/course/course-node.jpg"
+                              class="img-fluid"
+                            />
+                          </div>
+                          <div class="card-img-overlay">Slide 3</div>
+                        </div>
+                        <!-- FINE CARD ------------------------------------------------------------------------- -->
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="col-md-6 col-lg-3">
+                        <!-- CARD 4 ---------------------------------------------------------------------------- -->
+                        <div class="card">
+                          <div class="card-img">
+                            <img
+                              src="./assets/img/course/course-laravel.jpg"
+                              class="img-fluid"
+                            />
+                          </div>
+                          <div class="card-img-overlay">Slide 4</div>
+                        </div>
+                        <!-- FINE CARD ------------------------------------------------------------------------- -->
+                      </div>
+                    </div>
+                  </div>
+                  <a
+                    class="carousel-control-prev bg-transparent w-aut"
+                    href="#recipeCarousel"
+                    role="button"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                  </a>
+                  <a
+                    class="carousel-control-next bg-transparent w-aut"
+                    href="#recipeCarousel"
+                    role="button"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- fine carousel -->
+          </section>
+        </div>
+      </div>
+    </main>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>
 
