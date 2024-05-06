@@ -25,6 +25,12 @@
 .carousel-inner .carousel-item-start {
   transform: translateX(0);
 }
+
+/*  */
+
+header .row:first-of-type{
+  background-color: blueviolet;
+}
 i {
   font-style: normal;
 }
